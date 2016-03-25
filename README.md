@@ -61,5 +61,5 @@ RETURN
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
-2. https://www.youtube.com/watch?v=LTdOgvpsR3c
-3. https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland
+2. https://www.youtube.com/watch?v=LTdOgvpsR3c , The video that helped me to get my information from the excel sheet to Neo4J
+3. https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland , The Wikipedia page where I copied the information for each of the 40 Constituencies in the Republic of Ireland according to the 2016 General Election
