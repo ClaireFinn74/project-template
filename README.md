@@ -9,7 +9,9 @@ Give a summary here of what your project is about.
 
 1. In order to get all of the constituencies into Neo4J easier, I didn't have to type out the 40 of them, I just copied and pasted the information for all of the curent Constituencies in the Republic of Ireland straight from Wikipedia and pasted them into an Excel document.
 2. I then typed this function into excel into the first row:
+
 ="create(n:Constituency{Id: "&A2&", Population:"&C2&", Seats:"&D2&", Description:"&E2&"}),"
+
 3. This function creates a database called Constituencies with the properties 'Id' on Column A Row 2 (A2) 'Population' on Column B Row 2 (B2) of the Excel sheet, 'Seats' on Column C Row 2 (C2) of the Excel sheet and 'Description' on Column D Row 2 (D2) of the Excel sheet which turned the row into a cypher query:
 
 create(n:Constituency{Id: '0', Population:'145659', Seats:'5', Description:'The county of Kilkenny and the county of Carlow, except the part thereof which is comprised in the constituency of Wicklow.'}),
