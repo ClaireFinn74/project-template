@@ -11,7 +11,9 @@ Give a summary here of what your project is about.
 2. I then typed this function into excel into the first row:
 ="create(n:Constituency{Id: "&A2&", Population:"&C2&", Seats:"&D2&", Description:"&E2&"}),"
 3. This function creates a database called Constituencies with the properties 'Id' on Column A Row 2 (A2) 'Population' on Column B Row 2 (B2) of the Excel sheet, 'Seats' on Column C Row 2 (C2) of the Excel sheet and 'Description' on Column D Row 2 (D2) of the Excel sheet which turned the row into a cypher query:
+
 create(n:Constituency{Id: '0', Population:'145659', Seats:'5', Description:'The county of Kilkenny and the county of Carlow, except the part thereof which is comprised in the constituency of Wicklow.'}),
+
 4. Then, I dragged down this function (which was placed into the first column of the document) which as a result automatically created functions for all of the other 39 Constituencies, giving them Id, Population, Seats and Description information according to each constituency.
 5. I had to then do a few little adjustments.
 6. First, I took out 'create' from the 2nd row all the way down to the last row so that I wasn't creating new databases everytime so the other queries looked like this (remembering that the first row had an Id of 0):
