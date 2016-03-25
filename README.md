@@ -16,7 +16,7 @@ Give a summary here of what your project is about.
 
 create(n:Constituency{Id: '0', Population:'145659', Seats:'5', Description:'The county of Kilkenny and the county of Carlow, except the part thereof which is comprised in the constituency of Wicklow.'}),
 
-4. Then, I dragged down this function (which was placed into the first column of the document) which as a result automatically created functions for all of the other 39 Constituencies, giving them Id, Population, Seats and Description information according to each constituency.
+4. Then, I dragged down this function in Excel to the end of the column of information (which was placed into the first column of the document) which as a result automatically created functions for all of the other 39 Constituencies, giving them Id, Population, Seats and Description information according to each constituency.
 5. I had to then do a few little adjustments.
 6. First, I took out 'create' from the 2nd row all the way down to the last row so that I wasn't creating new databases everytime so the other queries looked like this (remembering that the first row had an Id of 0):
 
@@ -27,6 +27,7 @@ create(n:Constituency{Id: '0', Population:'145659', Seats:'5', Description:'The 
 Continuing like that (See 'create-constituencies.cypher for a list of all 40 Constitencies in Cypher)
 
 7. I then copied and pasted these queries into Neo4J which created my new database called 'Constituencies'.
+
 ## Queries
 Summarise your three queries here.
 Then explain them one by one in the following sections.
