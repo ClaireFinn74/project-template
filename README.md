@@ -37,6 +37,11 @@ create(n:Candidate{Id: '0', Name:'Bobby Aylward', Sex:'Male', Age:'60', Occupati
 (n2:Candidate{Id: '2', Name:'Jennifer Murnane O Connor', Sex:'Female', Age:'49', Occupation: 'Full-time councillor', Party:'Fianna Fáil', Biography:'She has been a Carlow county councillor since 2002. She ran unsuccessfully in the 2011 general election and Seanad election. She is the chairperson of the Housing, Recreation & Amenity & Community SPC in Carlow.'}),
 
 etc until I had all candidates in.
+
+When I made a mistake such as getting ids wrong after I had already commited those changes to the Neo4J database I had a back-up word file containing all of the cypher code as I was going along so I deleted all nodes in the database using this function:
+MATCH (n)
+DETACH DELETE n
+And then copied and pasted the work I had previously done with the error fixes from the word file.
 ## Queries
 Summarise your three queries here.
 Then explain them one by one in the following sections.
