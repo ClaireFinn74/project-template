@@ -1,15 +1,15 @@
-Irish Constituencies Neo4j Database
-Claire Finn, G00310769
+### Irish Constituencies Neo4j Database
+### Claire Finn, G00310769
 
-Introduction
+## Introduction
 
 I wanted to insert all of the people who ran for the 2016 general election in Ireland as nodes in a database and I also wanted to insert all 40 Constituencies. I then wanted to make a relationship between the Constituencies and the Candidates. I then did 3 interesting queries on my database which you will find explained in detail in the 'Scripts' folder.
 
-Database
+## Database
 
-Creating all nodes in my Neo4J Database:
+## Creating all nodes in my Neo4J Database:
 
-Constituency Nodes
+## Constituency Nodes
 
 In order to get all of the constituencies into Neo4J easier, I didn't have to type out the 40 of them, I just copied and pasted the information for all of the curent Constituencies in the Republic of Ireland straight from Wikipedia and pasted them into an Excel document.
 I then typed this function into excel into the first row:
