@@ -2,7 +2,7 @@
 ###### Claire Finn, G00310769
 
 ## Introduction
-Give a summary here of what your project is about.
+I wanted to insert all of the people who ran for the 2016 general election in Ireland as nodes in a database and I also wanted to insert all 40 Constituencies. I then wanted to make a relationship between the Constituencies and the Candidates. I then did 3 interesting queries on my database which you will find explained in detail in the 'Scripts' folder.
 
 ## Database
 ## Creating all nodes in my Neo4J Database:
@@ -45,18 +45,47 @@ MATCH (n)
 DETACH DELETE n
 
 And then copied and pasted the work I had previously done with the error fixes from the word file.
-## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
 
-#### Query one title
-This query retreives the Bacon number of an actor...
+
+## Queries
+# My first query deals with finding out how many people from the Independant party are Unemployed.
+# My second query deals with deals with creating 2 nodes 'Elected' and 'Not_Elected' and creating a relationship between the Candidates and these 2 nodes depending on if they were elected or not and then finding out how many males vs. how many females ran in the 2016 general election and then counting how many males and females were elected from each party in the election.
+#My third query deals with using a regular expression to find out if a girl (aged 23) that I went to school with was elected. She was, in my opinion, somebody well-suited to the job so my query was to find out if people are elected due to their character or is it just simply a loss due to the popularity of older politicians.
+
+#### How many people in the Independant party are Unemployed
+
+I was surprised at the amount of Independant party Candidates in the Database so I decided I wanted to
+check why so many Independant people were running for election. Is it because they're unemployed?
+
+I did this query to first of all find out exactly how many candidates ran for the Independant party in
+the 2016 General Election:
+
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (a:Candidate)
+where a.Party = 'Independent'
+RETURN a.Candidate, count(a)
 ```
+This query matched the Candidate to the 'Party' property that equalled to the string 'Independant' and
+returned the COUNT (amount) of Candidates in the Independant party.
+The result was 157 people.
+
+And then I executed this query to find out how many Candidates (in the entire database) were
+'Unemployed':
+
+```cypher
+MATCH (a:Candidate)
+WHERE a.Occupation = 'Unemployed'
+RETURN a
+```
+
+This query matched the Candidate to the 'Occupation' property that equalled to the string 'Unemployed' and
+returned the Candidates that were Unemployed.
+The result was 2 people.
+
+Surprisingly, only 2 people in the entire database were unemployed but both, as I had assumed, are
+from the Independant party.
+
+I assumed people had to be an important figure in their community to be able to run such as a Teacher // or a TD but it turns out people can also run if they are Unemployed which gives a better chance for people with ideas to become elected even if they aren't exactly well-known.
 
 #### Query two title
 This query retreives the Bacon number of an actor...
