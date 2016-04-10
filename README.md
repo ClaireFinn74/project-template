@@ -36,7 +36,9 @@ I then copied and pasted these queries into Neo4J which created my new database 
 
 ## Candidate nodes
 
-I gave each candidate that ran in the general election of 2016 an id, and gave them other properties such as Name, Age, Party, Sex, Biography and Occupation using this function: create(n:Candidate{Id: '0', Name:'Bobby Aylward', Sex:'Male', Age:'60', Occupation: 'TD', Party:'Fianna Fáil', Biography:'He was a member of Kilkenny County Council from 1992 until his election to the Dáil in 2007. He lost his seat at the 2011 general election but regained it at a by-election in May 2015. He also works as a farmer.'}),
+I gave each candidate that ran in the general election of 2016 an id, and gave them other properties such as Name, Age, Party, Sex, Biography and Occupation using this function:
+
+create(n:Candidate{Id: '0', Name:'Bobby Aylward', Sex:'Male', Age:'60', Occupation: 'TD', Party:'Fianna Fáil', Biography:'He was a member of Kilkenny County Council from 1992 until his election to the Dáil in 2007. He lost his seat at the 2011 general election but regained it at a by-election in May 2015. He also works as a farmer.'}),
 
 (n1:Candidate{Id: '1', Name:'John McGuinness', Sex:'4', Age:'60', Occupation: 'TD', Party:'Fianna Fáil', Biography:'He has been a sitting TD since 1997 and served as Minister of State at the Department of Enterprise, Trade and Employment with special responsibility for Trade and Commerce. He is currently the chairman of the Public Accounts Committee. TheJournal.ie I'}),
 
