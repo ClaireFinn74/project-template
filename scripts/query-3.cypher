@@ -23,3 +23,9 @@ return b
 // I found out you could use the backtick character (`) to deal with white space but whatever I tried
 // would not work so I unfortunately had to result in actually inputting the space in the name property
 // of the query
+
+//The reason why I chose this query was because I wanted to see if the election was based on the
+// character of the person. I knew Claire Kerrane as a well-adjusted, sensible and and articulate person
+// so based on whether she was elected or not I came to the conclusion that a person can be well-suited
+// for the job but may unfairly lose out due to votes or popularity of older politicians. Claire was only
+// 23 so, even though she wasn't elected this time around, she may still have time to compete.
