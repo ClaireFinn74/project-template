@@ -12,15 +12,20 @@ I wanted to insert all of the people who ran for the 2016 general election in Ir
 ## Constituency Nodes
 
 In order to get all of the constituencies into Neo4J easier, I didn't have to type out the 40 of them, I just copied and pasted the information for all of the curent Constituencies in the Republic of Ireland straight from Wikipedia and pasted them into an Excel document.
+
 I then typed this function into excel into the first row:
+
 ="create(n:Constituency{Id: "&A2&", Population:"&C2&", Seats:"&D2&", Description:"&E2&"}),"
 
-This function creates a database called Constituencies with the properties 'Id' on Column A Row 2 (A2) 'Population' on Column B Row 2 (B2) of the Excel sheet, 'Seats' on Column C Row 2 (C2) of the Excel sheet and 'Description' on Column D Row 2 (D2) of the Excel sheet which turned the row into a cypher query:
+This function creates a node in the database called Constituencies with the properties 'Id' on Column A Row 2 (A2) 'Population' on Column B Row 2 (B2) of the Excel sheet, 'Seats' on Column C Row 2 (C2) of the Excel sheet and 'Description' on Column D Row 2 (D2) of the Excel sheet which turned the row into a cypher query:
+
 create(n:Constituency{Id: '0', Population:'145659', Seats:'5', Description:'The county of Kilkenny and the county of Carlow, except the part thereof which is comprised in the constituency of Wicklow.'}),
 
 Then, I dragged down this function in Excel to the end of the column of information (which was placed into the first column of the document) which as a result automatically created functions for all of the other 39 Constituencies, giving them Id, Population, Seats and Description information according to each constituency.
+
 I had to then do a few little adjustments.
-First, I took out 'create' from the 2nd row all the way down to the last row so that I wasn't creating new databases everytime so the other queries looked like this (remembering that the first row had an Id of 0):
+First, I took out 'create' from the 2nd row all the way down to the last row so that I wasn't creating new nodes everytime so the other queries looked like this (remembering that the first row had an Id of 0):
+
 (n1:Constituency{Id: '1', Population:'120483', Seats:'4', Description:'The county of Monaghan and the county of Cavan, except the part thereof which is comprised in the constituency of Sligo-Leitrim.'}),
 
 (n2:Constituency{Id: '2', Population:'111336', Seats:'4', Description:'The county of Clare, except the part thereof which is comprised in the constituency of Limerick City.'}),
@@ -28,7 +33,8 @@ First, I took out 'create' from the 2nd row all the way down to the last row so 
 Continuing like that (See 'create-constituencies.cypher for a list of all 40 Constitencies in Cypher)
 
 I then copied and pasted these queries into Neo4J which created my new database called 'Constituencies'.
-Candidate nodes
+
+## Candidate nodes
 
 I gave each candidate that ran in the general election of 2016 an id, and gave them other properties such as Name, Age, Party, Sex, Biography and Occupation using this function: create(n:Candidate{Id: '0', Name:'Bobby Aylward', Sex:'Male', Age:'60', Occupation: 'TD', Party:'Fianna Fáil', Biography:'He was a member of Kilkenny County Council from 1992 until his election to the Dáil in 2007. He lost his seat at the 2011 general election but regained it at a by-election in May 2015. He also works as a farmer.'}),
 
