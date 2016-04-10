@@ -58,7 +58,7 @@ And then copied and pasted the work I had previously done with the error fixes f
 ### Queries
 My first query deals with finding out how many people from the Independant party are Unemployed.
 
-My second query deals with deals with creating 2 nodes 'Elected' and 'Not_Elected' and creating a relationship between the Candidates and these 2 nodes depending on if they were elected or not and then finding out how many males vs. how many females ran in the 2016 general election and then counting how many males and females were elected from each party in the election.
+My second query deals with creating 2 nodes 'Elected' and 'Not_Elected' and creating a relationship between the Candidates and these 2 nodes depending on if they were elected or not. Then I find out how many males vs. how many females ran in the 2016 general election and then count how many males and females were elected from each party in the election.
 
 My third query deals with using a regular expression to find out if a girl (aged 23) that I went to school with was elected. She was, in my opinion, somebody well-suited to the job so my query was to find out if people are elected due to their character or is it just simply a loss due to the popularity of older politicians.
 
