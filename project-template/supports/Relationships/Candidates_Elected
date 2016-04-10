@@ -1,0 +1,729 @@
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Paul Phelan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Pat Deering' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Heather Humphreys' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Joe Carey' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Pat Breen' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'David Stanton' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Dara Murphy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Creed' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Simon Coveney' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Jim Daly' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Joe McHugh' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Richard Bruton' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Eoghan Murphy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Kate OConnell' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Paschal Donohoe' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Alan Farrell' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Frances Fitzgerald' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Harty' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Collins' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Thomas Pringle' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Finian McGrath' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Maureen O’Sullivan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Shane Ross' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Katherine Zappone' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Seán Canney' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Noel Rock' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Mick Barry' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Gino Kenny' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Brid Smyth' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Paul Murphy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Ruth Coppinger' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Richard Boyd Barrett' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Jackie Cahill' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'James Browne' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Mary Butler' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Pat Casey' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Seán Sherlock' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Brendan Ryan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Joan Burton' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Jan O Sullivan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Willie Penrose' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Alan Kelly' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Brendan Howlin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Helen McEntee' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Regina Doherty' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Damien English' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Marcella Corcoran-Kennedy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Tony McLoughlin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Deasy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Darcy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Paul Kehoe' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Andrew Doyle' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Simon Harris' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Josepha Madigan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Catherine Byrne' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Colm Brophy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Leo Varadkar' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Maria Bailey' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Mary Mitchell-OConnor' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Ciarán Cannon' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Hildegarde Naughton' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Sean Kyne' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Brendan Griffin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Bernard Durkan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Martin Heydon' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Charlie Flanagan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Patrick ODonovan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Tom Neville' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Noonan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Peter Burke' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Fergus ODowd' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Peter Fitzpatrick' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Ring' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Enda Kenny' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Kathleen Funchion' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Caoimhghín O Caoláin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Pat Buckley' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Johnathan O’Brien' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Donnchadh O Laoghaire' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Pearse Doherty' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Denise Mitchell' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Mary Lou McDonald' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Louise O’Reilly' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Eoin O Broin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Sean Crowe' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Dessie Ellis' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Aengus O Snodaigh' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Martin Ferris' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Brian Stanley' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Maurice Quinlivan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Gerry Adams' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Imelda Munster' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Peadar Tóibín' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Carol Nolan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = ' Martin Kenny' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'David Cullinane' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Brady' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Bobby Aylward' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John McGuinness' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Brendan Smith' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Niamh Smyth' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Timmy Dooley' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Kevin O Keefe' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Billy Kelleher' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Aindrias Moynihan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Moynihan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael McGrath' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Micheál Martin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Charlie McConalogue' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Pat -The Cope- Gallagher' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Seán Haughey' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Jim OCallaghan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Darragh OBrien' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Curran' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Lahart' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Margaret Murphy-OMahony' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Jack Chambers' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Anne Rabbitte' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Éamon O Cuív' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Brassil' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Frank ORourke' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'James Lawless' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Fiona OLoughlin' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Seán Fleming' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Willie ODea' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Niall Collins' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Robert Troy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Declan Breathnach' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Dara Calleary' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Lisa Chambers' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Thomas Byrne' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Shane Cassells' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Barry Cowen' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Eugene Murphy' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Eamon Scanlon' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Marc MacSharry' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Catherine Connolly' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Noel Grealish' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Danny Healy-Rae' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Healy-Rae' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Kevin ‘Boxer’ Moran' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Denis Naughten' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Fitzmaurice' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Mattie McGrath' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'Michael Lowry' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Elected)
+WHERE a.Name = 'John Halligan' AND b.Result = 'Elected'
+CREATE (a)-[r:Result]->(b)
+RETURN r
